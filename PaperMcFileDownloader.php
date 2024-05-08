@@ -1,3 +1,4 @@
+<?php
 function downloadPaperMCmain($version, $uuid){
     $builds = "https://api.papermc.io/v2/projects/paper/versions/{$version}/builds/";
     
@@ -33,3 +34,4 @@ echo "Downloads completed\n";
 
 
 }
+?>
